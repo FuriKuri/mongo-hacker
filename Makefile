@@ -14,5 +14,5 @@ install:
 	ln -s "$(CURDIR)/mongo_hacker.js" ~/.mongorc.js
 
 uninstall:
+	@echo "UNINSTALL"
 	rm -f ~/.mongorc.js
-
